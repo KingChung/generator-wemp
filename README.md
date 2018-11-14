@@ -1,7 +1,7 @@
 # generator-wemp [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > generator for wechat mini program
 
-## Installation
+## **Usage**
 
 First, install [Yeoman](http://yeoman.io) and generator-wemp using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
@@ -16,7 +16,52 @@ Then generate your new project:
 yo wemp
 ```
 
-## Getting To Know Yeoman
+## **Generators**
+
+Available generators:
+
+* wemp (aka: wemp:app)
+* wemp:page
+* wemp:component
+* wemp:kiss
+
+### **App**
+Sets up a new weapp, generating a page boilerplate you need to get started. The generator also allow you to config the ext.json and API services.
+
+Example:
+
+    yo wemp
+
+### **page**
+
+Generate a page directory include weapp page 4 elements and insert the path to `app.json`
+
+Example:
+
+    yo wemp:page
+
+### **component**
+
+Generate a component.
+
+Example:
+
+    yo wemp:component
+
+### **kiss**
+
+[kiss-weapp](https://github.com/KingChung/kiss-weapp) is a weapp components library. There are some useful components could make you develop weapp feel better. 
+
+It will copy the kiss' component to your target page and config the page `index.json`
+
+Example:
+
+    yo wemp:kiss
+
+
+
+
+## **Getting To Know Yeoman**
 
  * Yeoman has a heart of gold.
  * Yeoman is a person with feelings and opinions, but is very easy to work with.
@@ -28,11 +73,4 @@ yo wemp
 MIT © [King Chung](https://github.com/KingChung)
 
 
-[npm-image]: https://badge.fury.io/js/generator-wemp.svg
 [npm-url]: https://npmjs.org/package/generator-wemp
-[travis-image]: https://travis-ci.org/KingChung/generator-wemp.svg?branch=master
-[travis-url]: https://travis-ci.org/KingChung/generator-wemp
-[daviddm-image]: https://david-dm.org/KingChung/generator-wemp.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/KingChung/generator-wemp
-[coveralls-image]: https://coveralls.io/repos/KingChung/generator-wemp/badge.svg
-[coveralls-url]: https://coveralls.io/r/KingChung/generator-wemp
