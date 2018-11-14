@@ -1,4 +1,4 @@
-# generator-wemp [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-wemp
 > generator for wechat mini program
 
 ## **Usage**
@@ -20,10 +20,10 @@ yo wemp
 
 Available generators:
 
-* wemp (aka: wemp:app)
-* wemp:page
-* wemp:component
-* wemp:kiss
+* [wemp](#app) (aka: [wemp:app](#app))
+* [wemp:page](#page)
+* [wemp:component](#component)
+* [wemp:kiss](#kiss)
 
 ### **App**
 Sets up a new weapp, generating a page boilerplate you need to get started. The generator also allow you to config the ext.json and API services.
