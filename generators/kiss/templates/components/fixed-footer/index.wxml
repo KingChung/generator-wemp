@@ -1,0 +1,3 @@
+<view class="footer {{ isIpx ? 'footer-ipx' : ''}}">
+  <slot name="content"></slot>
+</view>

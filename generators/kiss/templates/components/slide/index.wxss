@@ -1,0 +1,25 @@
+.slide {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.slide .heading {
+  position: relative;
+  color: #fff;
+}
+
+.slide .heading image {
+  display: block;
+}
+
+.slide .heading .title{
+  position: absolute;
+  bottom: 40rpx;
+  left: 40rpx;
+  font-size: 32rpx;
+  z-index: 1;
+}
+
+.slide .body {
+  padding: 30rpx;
+}

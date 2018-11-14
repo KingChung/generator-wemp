@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "King Chung",
+      "authorEmail": "kingchung@outlook.com",
+      "authorUrl": "https://github.com/KingChung"
+    }
+  }
+}

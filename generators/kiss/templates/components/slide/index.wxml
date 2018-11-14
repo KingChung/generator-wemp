@@ -1,0 +1,9 @@
+<view class="slide">
+  <view class="heading">
+    <image src="{{ thumb }}" style="height: {{ height }}rpx; width: {{ width }}rpx;" />
+    <text class="title">{{ title }}</text>
+  </view>
+  <view class="body">
+    <slot name="description"></slot>
+  </view>
+</view>

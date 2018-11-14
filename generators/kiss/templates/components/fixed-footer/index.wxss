@@ -1,0 +1,14 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  height: 120rpx;
+  width: 100%;
+  box-shadow: 0px -5px 12px rgba(0, 0, 0, 0.1);
+  padding: 20rpx 34rpx;
+}
+
+.footer.footer-ipx {
+  height: 188rpx;
+}

@@ -1,0 +1,15 @@
+<block wx:if="{{ ! value }}">
+	<button
+		capture-catch:tap="onTap"
+		hover-class="none"
+	>
+		<slot/>
+	</button>
+</block>
+<block wx:else>
+	<button
+		hover-class="none"
+	>
+		<slot/>
+	</button>
+</block>

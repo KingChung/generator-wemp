@@ -1,0 +1,8 @@
+{
+  "extEnable": "<%= !!extAppId %>",
+  "extAppid": "<%= extAppId %>",
+  "ext": {
+    "appid": "<%= extAppId %>",
+    "rootHost": "<%= apiUrlRoot %>"
+  }
+}

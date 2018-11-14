@@ -1,0 +1,4 @@
+<view>
+	<text class="title">Hello WEMP Component!</text>
+	<slot name="content"></slot>
+</view>
