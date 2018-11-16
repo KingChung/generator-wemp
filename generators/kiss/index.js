@@ -20,6 +20,12 @@ module.exports = class extends Generator {
       }
     ]);
 
+    Object.keys(answers).forEach(k => {
+      let input = answers[k]
+      if(typeof input === 'string') {
+        answers[k] = input.trim()
+      }
+    })
     this.answers = answers;
   }
 

@@ -1,7 +1,5 @@
 'use strict';
 const Generator = require('yeoman-generator');
-const chalk = require('chalk');
-const yosay = require('yosay');
 const fs = require('fs')
 const jsonFormat = require('json-format')
 
@@ -15,6 +13,14 @@ module.exports = class extends Generator {
       }
     ]);
 
+    Object.keys(answers).forEach(k => {
+      let input = answers[k]
+      if(typeof input === 'string') {
+        answers[k] = input.trim()
+      }
+    })
+
+    console.log(answers)
     this.answers = answers;
 
     this.log('page name', answers.pagename);
